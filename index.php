@@ -26,7 +26,7 @@
 		$result = $conn->query($sql);
 	
 		$users=$result->num_rows;
-		echo "Total user: ".$users."<br>";
+		echo "Total pengguna: ".$users."<br>";
 		
 		if ($result->num_rows > 0) {
 		    echo "<table><tr><th>ID</th><th>Name</th><th>Alamat</th><th>Jabatan</th></tr>";
